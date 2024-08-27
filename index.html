@@ -1,1 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script src='https://cdn.tailwindcss.com/3.2.0' ></script>
+  <script src="./tailwind.config.js"></script>
+
+
+
+
+
+
+
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+   a:hover , button:hover{
+scale: 1.1;
+   }
+
+
+@media  screen and (min-width:1101px) and (max-width:1200px) {
+body{
+    zoom: 85%;
+}    
+}
+
+
+@media  screen and (min-width:1026px) and (max-width:1100px) {
+body{
+    zoom: 75%;
+
+}
+
+}
+@media screen and (min-width:1001px) and (max-width:1025px) {
+body{
+    zoom: 75%;
+    height: 6800px;
+}
+
+} 
+
+
+@media  screen and (min-width:901px) and (max-width:1000px) {
+body{
+    zoom: 65%;
+}    
+}
+
+@media  screen and (min-width:513px) and (max-width:900px) {
+body{
+    zoom: 55%;
+}    
+}
+
+
+@media  screen and (min-width:100px) and (max-width:512px) {
+
+.rafi-navigation{
+    display: none;
+}
+
+}
+
+
+
+
+   </style>
+
+
+
+
+  <title>Document</title>
+</head>
+<body class="w-[100vw]">
+
+<div  class="desktop overflow-x-hidden max-[1200px]:w-[1440px]  max-[512px]:w-[100vw]   w-[100vw] absolute">
+
+
+<!-- start of header -->
+<header>
+<div class="max-[512px]:h-[700px]  h-[980px] w-full">
+
+
+<!-- start of navigation -->
+<div  class="navigation flex items-center justify-center">
+
+    <!-- left -->
+<div class="left1a  flex flex-row gap-2 items-center justify-start absolute  max-[512px]:left-[20px] </div>  left-[120px] top-[56.04px] ">
+    <div
+    class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+    style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+  >
+    <img
+      class="relative w-3 h-3 overflow-visible shrink-0"
+      src="group-10.svg"
+    />
+  </div>
+  <a href=""
+    class="text-color-neotral-color-grey-6 text-left font-['Manrope-ExtraBold',_sans-serif] text-[32px] font-extrabold relative"
+    style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+  >
+    Rinterio
+    </a>
+
+    <img src="./align-justify-r.svg" alt="" class="h-[45px] w-[45px]  min-[512px]:hidden  relative left-[100px] align-justify ">
+</div>
+
+
+
+<!-- medium -->
+    <div  class="rafi-navigation  flex flex-row items-center justify-between w-[449px] relative right-[85px] top-[67.06px]">
+    <a href=""
+      class="rafi-navigation text-[#494949] text-left font-['Manrope-ExtraBold',_sans-serif] text-base font-extrabold relative"
+    >
+      Home
+    </a>
+    <a href=""
+      class="rafi-navigation text-color-neotral-color-grey-4 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+    >
+      Services
+ </a>
+    <a href=""
+      class="rafi-navigation text-color-neotral-color-grey-4 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+    >
+      Portfolio
+    </a>
+    <a href=""
+      class="rafi-navigation text-color-neotral-color-grey-4 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+    >
+      Blogs
+    </a>
+    <a href=""
+      class="rafi-navigation text-color-neotral-color-grey-4 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+    >
+      Contact Us
+    </a>
+  </div>
+
+
+<!-- right -->
+<div class="right1 rafi-navigation">
+    <div
+    class="flex flex-row gap-4 items-center justify-start absolute right-[120px] top-[50px]"
+    style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+  >
+    <div
+      class="bg-[#ffffff] rounded-[56px] border-solid border-color-neotral-color-grey-1 border p-2.5 flex flex-row gap-2.5 items-center justify-center shrink-0 w-12 h-12 relative"
+    >
+      <img
+        class="cursor-pointer relative w-6 h-6 overflow-visible shrink-0"
+        src="search-010.svg"
+      />
+    </div>
+    <div
+      class="bg-[#ffffff] rounded-[56px] border-solid border-color-neotral-color-grey-1 border p-2.5 flex flex-row gap-2.5 items-center justify-center shrink-0 w-12 h-12 relative"
+    >
+      <img
+        class="cursor-pointer relative w-6 h-6 overflow-visible shrink-0"
+        src="shopping-cart-010.svg"
+      />
+    </div>
+    <div
+      class="bg-[#abef5f] rounded-[32px] pt-3 pr-5 pb-3 pl-5 flex flex-row gap-2.5 items-center justify-center shrink-0 relative"
+    >
+      <div
+        class="relative flex flex-row items-center justify-start gap-2 shrink-0"
+      >
+        <a href=""
+          class="text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl font-extrabold relative"
+        >
+          Book Consult
+        </a>
+        <div
+          class="bg-color-neotral-color-grey-7 rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+        >
+          <img
+            class="relative w-3 h-3 overflow-visible shrink-0"
+            src="group-11.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+    <!-- end of navigation------- -->
+     <!-- start of banner -->
+
+    <div class="max-[512px]:scale-[.7]   flex items-center justify-center">
+    <div
+    class="flex flex-col gap-6 items-center justify-start w-[1170px] relative  top-[120px]"
+    >
+    <img
+      class="shrink-0 w-[571.17px] h-[350px] relative"
+      style="object-fit: cover"
+      src="rectangle-60.png"
+    />
+    <div
+      class="relative flex flex-col items-center self-stretch justify-start gap-8 shrink-0"
+    >
+      <div
+        class="relative flex flex-col items-center self-stretch justify-start gap-6 shrink-0"
+      >
+        <div
+          class="max-[512px]:w-[350px] max-[512px]:text-2xl  text-color-neotral-color-grey-6 text-center font-['Manrope-ExtraBold',_sans-serif] text-[64px] font-extrabold relative w-[1084.28px]"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+            -webkit-text-stroke: 1px var(--color-neotral-color-grey-6, #212121);
+          "
+        >
+          A barn house of this design has a striking appearance
+        </div>
+        <div
+          class="max-[512px]:w-[350px]  text-color-neotral-color-grey-5 text-center font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[972.82px]"
+          style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </div>
+      </div>
+      <div
+        class="bg-[rgba(171,239,95,0.50)] rounded-[32px] border-solid border-[#abef5f] border pt-3 pr-6 pb-3 pl-6 flex flex-row gap-2.5 items-center justify-center shrink-0 relative"
+        style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+      >
+        <div
+          class="relative flex flex-row items-center justify-start gap-2 shrink-0"
+        >
+          <a href=""
+            class="text-color-neotral-color-grey-6 text-left font-['Manrope-Bold',_sans-serif] text-xl font-bold relative"
+          >
+            View Details
+        </a>
+          <div
+            class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+          >
+            <img
+              class="relative w-3 h-3 overflow-visible shrink-0"
+              src="group-12.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    </div>
+    <!-- end of banner -->
+    
+    </div>
+    </header>
+    <!-- end of header -->
+    
+    
+    
+    <!-- start of main -->
+     <div class=" rafi-1 ">
+    <main   class="bg-[#f4f4f4]">
+
+
+    <!--start of 1st section-->
+    <div  class="flex items-center justify-center  h-[1800px]   max-[512px]:h-[3300px]">
+
+
+<!-- start of 1st part of 1st section -->
+
+<div
+  class="flex flex-row    max-[512px]:flex-col  max-[512px]:w-[425px]  max-[512px]:scale-[.8]  max-[512px]:top-[-1300px] max-[512px]:left-[460px]  gap-[37px]  relative left-[805px] top-[-500px]"
+>
+
+<img
+class="w-[65.28px] h-[115.91px] relative left-[65px] overflow-visible  max-[512px]:top-[154px]  max-[512px]:left-[-45px]"
+style="transform: translate(-16.2px, -70.62px)"
+src="vector-140.svg"
+/>
+
+
+
+  <div
+    class="flex flex-col gap-8 items-start justify-start shrink-0 w-[559.97px]  max-[512px]:w-[425px] relative"
+  >
+    <div
+      class="relative flex flex-col items-start self-stretch justify-start gap-6 shrink-0"
+    >
+      <div
+        class="relative flex flex-col items-start self-stretch justify-start gap-4 shrink-0"
+      >
+        <div
+          class="bg-[#ffffff] rounded-3xl pt-2 pr-4 pb-2 pl-4 flex flex-col gap-2.5 items-start justify-start shrink-0 relative"
+        >
+          <div
+            class="relative flex flex-row items-center self-stretch justify-start gap-2 shrink-0"
+            style="
+              transform-origin: 0 0;
+              transform: rotate(0.019deg) scale(1, 1);
+            "
+          >
+            <img
+              class="relative w-3 h-3 overflow-visible shrink-0"
+              src="group-13.svg"
+            />
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-Bold',_sans-serif] text-base font-bold relative"
+            >
+              About Us
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative flex flex-col items-start self-stretch justify-center gap-6 shrink-0"
+        >
+          <div
+            class="text-color-neotral-color-grey-6 text-left font-['Manrope-Bold',_sans-serif] text-[40px] font-bold relative w-[477.3px] max-[512px]:w-[350px]"
+            style="
+              transform-origin: 0 0;
+              transform: rotate(0.019deg) scale(1, 1);
+              -webkit-text-stroke: 1px
+                var(--color-neotral-color-grey-6, #212121);
+            "
+          >
+            We design thoughtful, liveable spaces
+          </div>
+          <div
+            class="text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[559.95px] max-[512px]:w-[350px]"
+            style="
+              transform-origin: 0 0;
+              transform: rotate(0.019deg) scale(1, 1);
+            "
+          >
+            The barn house captivates with its blend of rustic charm and
+            <br />
+            modern sophistication, featuring weathered wood, sleek metal
+            accents.
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] rounded-2xl p-6 flex flex-row gap-2.5 items-center justify-start self-stretch shrink-0 relative"
+      >
+        <div
+          class="relative flex flex-row items-center justify-start flex-1 gap-6"
+        >
+          <div class="static w-16 h-16 shrink-0">
+
+
+            <div
+              class="w-16 h-16 relative overflow-hidden"
+            >
+              <img
+                class="h-[auto] relative left-0 top-16 overflow-visible"
+                style="transform: translate(0px, -64px)"
+                src="g-1830.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start shrink-0 w-[308px] relative"
+          >
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              Commercial
+            </div>
+            <div
+              class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[320.41px]"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] rounded-2xl p-6 flex flex-row gap-2.5 items-center justify-start self-stretch shrink-0 relative"
+      >
+        <div
+          class="relative flex flex-row items-center justify-start flex-1 gap-6"
+        >
+          <div class="static w-16 h-16 shrink-0">
+
+            <!--  -->
+            <div
+              class="w-16 h-16 relative overflow-hidden"
+            >
+            <!--  -->
+              <img
+                class="w-[93.75%] h-[93.75%] relative right-[3.12%] left-[3.12%] bottom-[3.12%] top-[3.12%] overflow-visible"
+                src="_01-house0.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start shrink-0 w-[308px] relative"
+          >
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              Residential
+            </div>
+            <div
+              class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[320.41px]"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    class="rounded-2xl self-stretch shrink-0 w-[573px]  max-[512px]:w-[400px] max-[512px]:h-[225px] relative"
+    style="object-fit: cover"
+    src="rectangle-20.png"
+  />
+</div>
+
+<!-- ---end of 1st part of 1st section -->
+
+
+
+
+
+
+<!-- start of 2nd part of 1st section -->
+
+
+<div
+class=" bg-[#ffffff] rounded-3xl p-8 flex flex gap-2.5  w-[1180px] max-[512px]:left-[0px] max-[512px]:top-[-300px]  relative left-[268px] top-[50px]"
+>
+<div
+  class="relative w-[1116px] max-[512px]:w-[425px]  flex flex-row max-[512px]:flex-col items-center self-stretch justify-start gap-6 shrink-0 "
+>
+  <div
+    class="bg-[#ffffff] rounded-2xl p-6 flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+  >
+    <div
+      class="flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative"
+    >
+      <img
+        class="relative w-10 h-10 overflow-visible shrink-0"
+        src="comment-010.svg"
+      />
+      <div
+        class="flex flex-col gap-0.5 items-center justify-center shrink-0 relative"
+      >
+        <div
+          class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-[40px] font-extrabold relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          235+
+        </div>
+        <div
+          class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          Happy Client Review
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-[#ffffff] rounded-2xl p-6 flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+  >
+    <div
+      class="flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative"
+    >
+      <img
+        class="relative w-10 h-10 overflow-visible shrink-0"
+        src="departement0.svg"
+      />
+      <div
+        class="flex flex-col gap-0.5 items-center justify-center shrink-0 relative"
+      >
+        <div
+          class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-[40px] font-extrabold relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          50+
+        </div>
+        <div
+          class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          Work Departments
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-[#ffffff] rounded-2xl p-6 flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+  >
+    <div
+      class="flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative"
+    >
+      <img
+        class="relative w-10 h-10 overflow-visible shrink-0"
+        src="group-80.svg"
+      />
+      <div
+        class="flex flex-col gap-0.5 items-center justify-center shrink-0 relative"
+      >
+        <div
+          class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-[40px] font-extrabold relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          30k+
+        </div>
+        <div
+          class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          Our Happy Client
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="bg-[#ffffff] rounded-2xl p-6 flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+  >
+    <div
+      class="flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative"
+    >
+      <img
+        class="relative w-10 h-10 overflow-visible shrink-0"
+        src="user-multiple0.svg"
+      />
+      <div
+        class="flex flex-col gap-0.5 items-center justify-center shrink-0 relative"
+      >
+        <div
+          class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-[40px] font-extrabold relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          307+
+        </div>
+        <div
+          class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative"
+          style="
+            transform-origin: 0 0;
+            transform: rotate(0.019deg) scale(1, 1);
+          "
+        >
+          Staff Members
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- end of 2nd part of 1st section -->
+
+
+
+
+
+
+
+
+        <!--  start of 3rd part of 1st section-->
+        <div
+        class="flex flex-col gap-8 items-center justify-start w-[1170px] max-[512px]:w-[425px] relative right-[907px] top-[550px]  max-[512px]:right-[380px]  max-[512px]:top-[880px]"
+        >
+        <div
+          class="relative flex flex-col items-center self-stretch justify-start gap-4 shrink-0 max-[512px]:left-[-130px]"
+        >
+          <div
+            class="bg-[#ffffff] rounded-3xl pt-2 pr-4 pb-2 pl-4 flex flex-col gap-2.5 items-start justify-start shrink-0 relative"
+          >
+            <div
+              class="relative flex flex-row         max-[512px]:flex-col  items-center self-stretch justify-start gap-2 shrink-0"
+              style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+            >
+              <img
+                class="relative w-3 h-3 overflow-visible shrink-0"
+                src="group-14.svg"
+              />
+              <div
+                class="text-color-neotral-color-grey-5 text-left font-['Manrope-Bold',_sans-serif] text-base font-bold relative"
+              >
+                How we works
+              </div>
+            </div>
+          </div>
+
+
+
+          <div
+            class="max-[512px]:w-[350px]  max-[512px]:left-[100px] relative flex flex-col items-center self-stretch justify-center gap-6 shrink-0"
+          >
+            <div
+              class="text-color-neotral-color-grey-6 text-center font-['Manrope-Bold',_sans-serif] text-[40px] font-bold relative w-[477.3px]  max-[512px]:w-[350px]"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+                -webkit-text-stroke: 1px var(--color-neotral-color-grey-6, #212121);
+              "
+            >
+              Our Works Process
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-center font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[678.26px]  max-[512px]:w-[350px]"
+              style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+            >
+              The barn house captivates with its blend of rustic charm and modern
+              sophistication, featuring weathered wood, sleek metal accents.
+            </div>
+          </div>
+
+
+
+        </div>
+        <div
+          class="relative flex flex-col items-start self-stretch justify-start gap-6 shrink-0"
+        >
+  <div
+    class="relative flex flex-row          max-[512px]:flex-col items-start justify-start gap-6 shrink-0"
+  >
+    <div
+      class="flex flex-row  max-[512px]:flex-col   gap-6 items-start justify-start shrink-0 w-[573px] relative"
+    >
+      <div
+        class="bg-[#e7c1d3] rounded-2xl p-6 flex flex-row max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 w-[275px] relative"
+      >
+        <div
+          class="flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+        >
+          <div class="static w-12 h-12 shrink-0">
+            <div class="relative top-0 left-0 w-12 h-12 overflow-hidden">
+              <img
+                class="h-[auto] relative left-0 top-12 overflow-visible"
+                style="transform: translate(0px, -48px)"
+                src="g-27540.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative"
+          >
+            <div
+              class="text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              Concept
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#efda6e] rounded-2xl p-6 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[274px] relative"
+      >
+        <div
+          class="flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+        >
+          <div class="static w-12 h-12 shrink-0">
+            <div class="relative top-0 left-0 w-12 h-12 overflow-hidden">
+              <img
+                class="w-[98%] h-[96.88%] relative right-[1.56%] left-[0.44%] bottom-[1.56%] top-[1.56%] overflow-visible"
+                src="group0.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative"
+          >
+            <div
+              class="text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              Design Process
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div
+      class="flex flex-row  max-[512px]:flex-col gap-6 items-start justify-start shrink-0 w-[573px] relative"
+    >
+      <div
+        class="bg-[#a4dac3] rounded-2xl p-6 flex flex-row  max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 w-[275px] relative"
+      >
+        <div
+          class="flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+        >
+          <img
+            class="relative w-12 h-12 overflow-visible shrink-0"
+            src="group-50.svg"
+          />
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative"
+          >
+            <div
+              class="text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              Supervision
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#77aaea] rounded-2xl p-6 flex flex-row  max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 w-[274px] relative"
+      >
+        <div
+          class="flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+        >
+          <img
+            class="relative w-12 h-12 overflow-visible shrink-0"
+            src="budget-planning-10.svg"
+          />
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative"
+          >
+            <div
+              class="text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              Budget Planning
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+              "
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- end of 3rd part of 1st section -->
+
+
+
+</div>
+
+<!--end of 1st section -->
+
+
+
+<!-- ----------------------------------------------- -->
+
+
+
+<!-- start of 2nd section -->
+
+<div  class="flex items-center justify-center h-[910px]  max-[512px]:h-[2500px]">
+
+<!--start of 1st part of 2nd  section-->
+
+
+<div
+class="bg-[#ffffff] pt-[100px] pr-[125px] pb-[100px] pl-[125px] flex flex-col gap-2.5 items-start justify-start w-[1440px] relative left-0 top-[0px]  max-[512px]:top-[0px]  max-[512px]:h-[2500px]"
+>
+<div
+  class="flex flex-col gap-8 items-center justify-start shrink-0 w-[1190px] relative"
+>
+  <div
+    class="relative flex flex-col items-center self-stretch justify-start gap-4 shrink-0"
+  >
+    <div
+      class="bg-[rgba(171,239,95,0.20)] rounded-3xl pt-2 pr-4 pb-2 pl-4 flex flex-col gap-2.5 items-start justify-start shrink-0 relative"
+    >
+      <div
+        class="relative flex flex-row  max-[512px]:flex-col items-center self-stretch justify-start gap-2 shrink-0"
+        style="
+          transform-origin: 0 0;
+          transform: rotate(0.019deg) scale(1, 1);
+        "
+      >
+        <img
+          class="relative w-3 h-3 overflow-visible shrink-0"
+          src="group-15.svg"
+        />
+        <div
+          class="text-color-neotral-color-grey-5 text-left font-['Manrope-Bold',_sans-serif] text-base font-bold relative"
+        >
+          Explore our Latest works
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative flex flex-col items-center self-stretch justify-center gap-6 shrink-0"
+    >
+      <div
+        class="text-color-neotral-color-grey-6 text-center font-['Manrope-Bold',_sans-serif] text-[40px] font-bold relative w-[477.3px]"
+        style="
+          transform-origin: 0 0;
+          transform: rotate(0.019deg) scale(1, 1);
+          -webkit-text-stroke: 1px
+            var(--color-neotral-color-grey-6, #212121);
+        "
+      >
+        Our Latest Portfolio
+      </div>
+      <div
+        class="max-[512px]:w-[350px]  text-color-neotral-color-grey-5 text-center font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[678.26px]   max-[512px]:w-[425px]"
+        style="
+          transform-origin: 0 0;
+          transform: rotate(0.019deg) scale(1, 1);
+        "
+      >
+        The barn house captivates with its blend of rustic charm and modern
+        sophistication, featuring weathered wood, sleek metal accents.
+      </div>
+    </div>
+  </div>
+  <div
+    class="relative flex flex-col items-center self-stretch justify-start gap-6 shrink-0"
+  >
+    <div
+      class="relative flex flex-row  max-[512px]:flex-col items-center justify-start gap-6 shrink-0"
+    >
+      <div
+        class="bg-[#ffffff] rounded-2xl border-solid border-color-neotral-color-grey-1 border p-6 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[772px] relative"
+      >
+        <div
+          class="relative flex flex-row  max-[512px]:flex-col items-center justify-start flex-1 gap-6"
+        >
+          <img
+            class="rounded-2xl self-stretch shrink-0 w-[260px]  max-[512px]:w-[325px] max-[512px]:left-[200px] relative"
+            style="object-fit: cover"
+            src="rectangle-21.png"
+          />
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+          >
+            <div
+              class="relative flex flex-col items-start self-stretch justify-start gap-5 shrink-0"
+            >
+
+
+              <div
+                class="flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative"
+              >
+                <div
+                  class="relative flex flex-col items-start self-stretch justify-start gap-4 shrink-0"
+                >
+                  <div
+                    class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-2xl font-extrabold relative self-stretch"
+                    style="
+                      transform-origin: 0 0;
+                      transform: rotate(0.019deg) scale(1, 1);
+                    "
+                  >
+                    Commercial
+                  </div>
+                  <div
+                    class="max-[512px]:w-[350px]  text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+                    style="
+                      transform-origin: 0 0;
+                      transform: rotate(0.019deg) scale(1, 1);
+                    "
+                  >
+                    The barn house captivates with its blend of rustic charm
+                    and modern. The barn house captivates with its blend of
+                    rustic charm and modern .
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div
+                class="flex flex-row  max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 relative"
+              >
+                <a href=""
+                  class="text-color-neotral-color-grey-6 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  View Details
+                </a>
+                <div
+                  class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row   max-[512px]:flex-col  gap-2.5 items-center justify-start shrink-0 relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  <img
+                    class="relative w-3 h-3 overflow-visible shrink-0"
+                    src="group-16.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] rounded-2xl border-solid border-color-neotral-color-grey-1 border p-6 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[374px] relative"
+      >
+        <div
+          class="relative flex flex-row  max-[512px]:flex-col items-center justify-start flex-1 gap-6"
+        >
+          <img
+            class="relative self-stretch flex-1 rounded-2xl"
+            style="object-fit: cover"
+            src="rectangle-22.png"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative flex flex-row  max-[512px]:flex-col items-center justify-start gap-6 shrink-0"
+    >
+      <div
+        class="bg-[#ffffff] rounded-2xl border-solid border-color-neotral-color-grey-1 border p-6 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[274px] relative"
+      >
+        <div
+          class="relative flex flex-row  max-[512px]:scale-[1.4]  max-[512px]:flex-col items-center justify-start flex-1 gap-6"
+        >
+          <img
+            class="max-[512px]:hidden  max-[512px]:w-[325px] relative self-stretch flex-1 rounded-2xl"
+            style="object-fit: cover"
+            src="rectangle-23.png"
+          />
+
+          <img
+          class="min-[512px]:hidden   max-[512px]:w-[325px] relative self-stretch flex-1 rounded-2xl"
+          style="object-fit: cover"
+          src="rectangle-25.png"
+        />
+
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] rounded-2xl border-solid border-color-neotral-color-grey-1 border p-6 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[573px] relative"
+      >
+        <div
+          class="relative flex flex-row  max-[512px]:flex-col items-center justify-start flex-1 gap-6"
+        >
+          <img
+            class="rounded-2xl self-stretch shrink-0 w-[260px]   max-[512px]:left-[100px] max-[512px]:w-[325px] relative"
+            style="object-fit: cover"
+            src="rectangle-24.png"
+          />
+          <div
+            class="flex flex-col gap-2.5 items-start justify-start flex-1 relative"
+          >
+            <div
+              class="relative flex flex-col items-start self-stretch justify-start gap-5 shrink-0"
+            >
+
+
+
+
+              <div
+                class="  flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative"
+              >
+                <div
+                  class="relative flex flex-col items-start self-stretch justify-start gap-4 shrink-0"
+                >
+                  <div
+                    class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-2xl font-extrabold relative self-stretch"
+                    style="
+                      transform-origin: 0 0;
+                      transform: rotate(0.019deg) scale(1, 1);
+                    "
+                  >
+                    Commercial
+                  </div>
+                  <div
+                    class="max-[512px]:w-[350px]  text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+                    style="
+                      transform-origin: 0 0;
+                      transform: rotate(0.019deg) scale(1, 1);
+                    "
+                  >
+                    The barn house captivates with its blend of rustic charm
+                    and modern.
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div
+                class="flex flex-row  max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 relative"
+              >
+                <a href=""
+                  class="text-color-neotral-color-grey-6 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[26px] font-extrabold relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  View Details
+                </a>
+                <div
+                  class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  <img
+                    class="relative w-3 h-3 overflow-visible shrink-0"
+                    src="group-17.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="min-[512px]:hidden  bg-[#ffffff] rounded-2xl border-solid border-color-neotral-color-grey-1 border p-6 flex flex-row  max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 w-[274px] relative"
+      >
+        <div
+          class="max-[512px]:scale-[1.4]  max-[512px]:left-[400pxx] relative flex flex-row  max-[512px]:flex-col items-center justify-start flex-1 gap-6"
+        >
+          <img
+            class="relative self-stretch flex-1 rounded-2xl"
+            style="object-fit: cover"
+            src="rectangle-23.png"
+          />
+        </div>
+      </div>
+
+
+      <div
+      class="max-[512px]:m-4 bg-[#ffffff] rounded-2xl border-solid border-color-neotral-color-grey-1 border p-6 flex flex-row  max-[512px]:flex-col gap-2.5 items-center justify-start shrink-0 w-[274px] relative"
+    >
+      <div
+        class="max-[512px]:scale-[1.4]  max-[512px]:left-[400pxx] relative flex flex-row  max-[512px]:flex-col items-center justify-start flex-1 gap-6"
+      >
+        <img
+          class="relative self-stretch flex-1 rounded-2xl"
+          style="object-fit: cover"
+          src="rectangle-25.png"
+        />
+      </div>
+    </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- end of 1st part of second section -->
+
+</div>
+
+
+<!-- ------------------------- -->
+
+
+
+
+<!--start of 3rd section -->
+
+<div class="flex items-center justify-center h-[930px]  max-[512px]:h-[2200px]">
+
+<!-- start of 1st part of 3rd section -->
+
+<div
+class="flex flex-col gap-8 items-start justify-start w-[1170px] relative left-[0px] top-[0px]"
+>
+<div
+  class="relative flex flex-col items-center self-stretch justify-start gap-4 shrink-0"
+>
+  <div
+    class="bg-[rgba(171,239,95,0.20)] rounded-3xl pt-2 pr-4 pb-2 pl-4 flex flex-col gap-2.5 items-start justify-start shrink-0 relative"
+  >
+    <div
+      class="relative flex flex-row  max-[512px]:flex-col  items-center self-stretch justify-start gap-2 shrink-0"
+      style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+    >
+      <img
+        class="relative w-3 h-3 overflow-visible shrink-0"
+        src="group-18.svg"
+      />
+      <div
+        class="text-color-neotral-color-grey-5 text-left font-['Manrope-Bold',_sans-serif] text-base font-bold relative"
+      >
+        Rinterio News
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div
+    class="max-[512px]:scale-[.7]  relative flex flex-col items-center self-stretch justify-center gap-6 shrink-0"
+  >
+    <div
+      class="text-color-neotral-color-grey-6 text-center font-['Manrope-Bold',_sans-serif] text-[40px] font-bold relative"
+      style="
+        transform-origin: 0 0;
+        transform: rotate(0.019deg) scale(1, 1);
+        -webkit-text-stroke: 1px var(--color-neotral-color-grey-6, #212121);
+      "
+    >
+      Read Our Articles and News
+    </div>
+    <div
+      class="text-color-neotral-color-grey-5 text-center font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[678.26px]   max-[512px]:w-[350px]"
+      style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+    >
+      The barn house captivates with its blend of rustic charm and modern
+      sophistication, featuring weathered wood, sleek metal accents.
+    </div>
+  </div>
+
+
+
+
+
+</div>
+<div
+  class="relative flex flex-col items-start self-stretch justify-start gap-6 shrink-0"
+>
+  <div
+    class="relative flex flex-col items-start self-stretch justify-start gap-6 shrink-0"
+  >
+    <div
+      class="relative flex flex-row   max-[512px]:flex-col  items-center self-stretch justify-start gap-6 shrink-0"
+    >
+      <div
+        class="bg-[#ffffff] rounded-2xl p-6 flex flex-row  max-[512px]:flex-col  gap-2.5 items-center justify-start shrink-0 w-[374px] relative"
+      >
+        <div
+          class="relative flex flex-col items-start justify-start flex-1 gap-4"
+        >
+          <img
+            class="rounded-2xl self-stretch shrink-0 h-[179.3px] relative"
+            style="object-fit: cover"
+            src="rectangle-26.png"
+          />
+          <div
+            class="relative flex flex-col items-start self-stretch justify-start gap-2 shrink-0"
+          >
+            <div
+              class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-3 shrink-0"
+            >
+              <div
+                class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <img
+                  class="relative w-6 h-6 overflow-visible shrink-0"
+                  src="calendar-030.svg"
+                />
+                <div
+                  class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-sm font-medium relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  July14, 2024
+                </div>
+              </div>
+              <div
+                class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <img
+                  class="relative w-6 h-6 overflow-visible shrink-0"
+                  src="user-circle0.svg"
+                />
+                <div
+                  class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-sm font-medium relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  By Admin
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[30px] font-extrabold relative self-stretch"
+            >
+              How to choose the furniture right of your home.
+            </div>
+            <div
+              class="relative flex flex-col items-start self-stretch justify-start gap-3 shrink-0"
+            >
+              <div
+                class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+                style="
+                  transform-origin: 0 0;
+                  transform: rotate(0.019deg) scale(1, 1);
+                "
+              >
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </div>
+              <div
+                class="relative flex flex-row   max-[512px]:flex-col items-center justify-start gap-2 shrink-0"
+              >
+                <a href=""
+                  class="text-color-neotral-color-grey-6 text-left font-['Manrope-Bold',_sans-serif] text-lg leading-[26px] font-bold relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  Read More
+                </a>
+                <div
+                  class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row  max-[512px]:flex-col  gap-2.5 items-center justify-start shrink-0 relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  <img
+                    class="relative w-3 h-3 overflow-visible shrink-0"
+                    src="group-19.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] rounded-2xl p-6 flex flex-row  max-[512px]:flex-col   gap-2.5 items-center justify-start shrink-0 w-[374px] relative"
+      >
+        <div
+          class="relative flex flex-col items-start justify-start flex-1 gap-4"
+        >
+          <img
+            class="rounded-2xl self-stretch shrink-0 h-[179.3px] relative"
+            style="object-fit: cover"
+            src="rectangle-27.png"
+          />
+          <div
+            class="relative flex flex-col items-start self-stretch justify-start gap-2 shrink-0"
+          >
+            <div
+              class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-3 shrink-0"
+            >
+              <div
+                class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <img
+                  class="relative w-6 h-6 overflow-visible shrink-0"
+                  src="calendar-031.svg"
+                />
+                <div
+                  class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-sm font-medium relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  July14, 2024
+                </div>
+              </div>
+              <div
+                class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <img
+                  class="relative w-6 h-6 overflow-visible shrink-0"
+                  src="user-circle1.svg"
+                />
+                <div
+                  class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-sm font-medium relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  By Admin
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[30px] font-extrabold relative self-stretch"
+            >
+              How to choose the furniture right of your home.
+            </div>
+            <div
+              class="relative flex flex-col items-start self-stretch justify-start gap-3 shrink-0"
+            >
+              <div
+                class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+                style="
+                  transform-origin: 0 0;
+                  transform: rotate(0.019deg) scale(1, 1);
+                "
+              >
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </div>
+              <div
+                class="relative flex flex-row    max-[512px]:flex-col   items-center justify-start gap-2 shrink-0"
+              >
+                <a href=""
+                  class="text-color-neotral-color-grey-6 text-left font-['Manrope-Bold',_sans-serif] text-lg leading-[26px] font-bold relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  Read More
+                </a>
+                <div
+                  class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row   max-[512px]:flex-col  gap-2.5 items-center justify-start shrink-0 relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  <img
+                    class="relative w-3 h-3 overflow-visible shrink-0"
+                    src="group-110.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#ffffff] rounded-2xl p-6 flex flex-row   max-[512px]:flex-col  gap-2.5 items-center justify-start shrink-0 w-[374px] relative"
+      >
+        <div
+          class="relative flex flex-col items-start justify-start flex-1 gap-4"
+        >
+          <img
+            class="rounded-2xl self-stretch shrink-0 h-[179.3px] relative"
+            style="object-fit: cover"
+            src="rectangle-28.png"
+          />
+          <div
+            class="relative flex flex-col items-start self-stretch justify-start gap-2 shrink-0"
+          >
+            <div
+              class="relative flex flex-row    max-[512px]:flex-col items-center justify-start gap-3 shrink-0"
+            >
+              <div
+                class="relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <img
+                  class="relative w-6 h-6 overflow-visible shrink-0"
+                  src="calendar-032.svg"
+                />
+                <div
+                  class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-sm font-medium relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  July14, 2024
+                </div>
+              </div>
+              <div
+                class="relative flex flex-row   max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <img
+                  class="relative w-6 h-6 overflow-visible shrink-0"
+                  src="user-circle2.svg"
+                />
+                <div
+                  class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-sm font-medium relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  By Admin
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl leading-[30px] font-extrabold relative self-stretch"
+            >
+              How to choose the furniture right of your home.
+            </div>
+            <div
+              class="relative flex flex-col items-start self-stretch justify-start gap-3 shrink-0"
+            >
+              <div
+                class="text-color-neotral-color-grey-4 text-left font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+                style="
+                  transform-origin: 0 0;
+                  transform: rotate(0.019deg) scale(1, 1);
+                "
+              >
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </div>
+              <div
+                class="relative flex flex-row   max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+              >
+                <a href=""
+                  class="text-color-neotral-color-grey-6 text-left font-['Manrope-Bold',_sans-serif] text-lg leading-[26px] font-bold relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  Read More
+                </a>
+                <div
+                  class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+                  style="
+                    transform-origin: 0 0;
+                    transform: rotate(0.019deg) scale(1, 1);
+                  "
+                >
+                  <img
+                    class="relative w-3 h-3 overflow-visible shrink-0"
+                    src="group-111.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- end of 1st part of 3rd section -->
+
+</div>
+
+<!-- --end of 3rd section -->
+
+
+<!-- ------------------ -->
+
+
+
+
+
+<!-- start of 4th section -->
+<div class="flex items-center justify-center h-[950px]   max-[512px]:h-[1300px]">
+<!--start of 1st part of 4th section -->
+
+
+<div
+class="border-solid border-[#ffffff] border-[7px] pt-[100px] pb-[100px] flex flex-col gap-2.5 items-center justify-start w-[] relative left-0  max-[512px]:h-[1300px]  top-[0px]"
+style="
+  background: url(frame-570.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+"
+>
+<div
+  class="flex flex-col gap-4 items-center justify-start shrink-0 w-[970px] relative"
+>
+  <div
+    class="relative flex flex-col items-center self-stretch justify-start gap-8 shrink-0"
+  >
+    <div
+      class="relative flex flex-col items-start self-stretch justify-start gap-8 shrink-0"
+    >
+
+
+
+
+      <div
+        class="max-[512px]:scale-[.7]  relative flex flex-col items-center self-stretch justify-start gap-4 shrink-0"
+      >
+        <div
+          class="bg-[rgba(171,239,95,0.20)] rounded-3xl pt-2 pr-4 pb-2 pl-4 flex flex-col gap-2.5 items-start justify-start shrink-0 relative"
+        >
+          <div
+            class="relative flex flex-row  max-[512px]:flex-col items-center self-stretch justify-start gap-2 shrink-0"
+            style="
+              transform-origin: 0 0;
+              transform: rotate(0.019deg) scale(1, 1);
+            "
+          >
+            <img
+              class="relative w-3 h-3 overflow-visible shrink-0"
+              src="group-112.svg"
+            />
+            <div
+              class="text-color-neotral-color-grey-5 text-left font-['Manrope-Bold',_sans-serif] text-base font-bold relative"
+            >
+              Let’s Connect
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative flex flex-col items-center self-stretch justify-center gap-6 shrink-0"
+        >
+          <div
+            class="text-color-neotral-color-grey-6 text-center font-['Manrope-Bold',_sans-serif] text-[40px] font-bold relative"
+            style="
+              transform-origin: 0 0;
+              transform: rotate(0.019deg) scale(1, 1);
+              -webkit-text-stroke: 1px
+                var(--color-neotral-color-grey-6, #212121);
+            "
+          >
+            Let’s Discuss Next Project
+          </div>
+          <div
+            class="text-color-neotral-color-grey-5 text-center font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative w-[678.26px]   max-[512px]:w-[400px]"
+            style="
+              transform-origin: 0 0;
+              transform: rotate(0.019deg) scale(1, 1);
+            "
+          >
+            The barn house captivates with its blend of rustic charm and
+            modern sophistication, featuring weathered wood, sleek metal
+            accents.
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <form
+        class="max-[512px]:scale-[.7]  relative flex flex-col items-start self-stretch justify-start gap-6 shrink-0"
+      >
+        <div
+          class="relative flex flex-row  max-[512px]:flex-col items-center self-stretch justify-start gap-6 shrink-0"
+        >
+          <div
+            class="bg-[#ffffff] rounded-[64px] border-solid border-color-neotral-color-grey-1 border pt-[21px] pr-5 pb-[21px] pl-5 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[473px] relative"
+          >
+            <input type="text" placeholder="First Name*"
+              class="w-full h-full   text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base font-medium relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+                outline: none;
+              "
+            >
+            
+          </div>
+          <div
+            class="bg-[#ffffff] rounded-[64px] border-solid border-color-neotral-color-grey-1 border pt-[21px] pr-5 pb-[21px] pl-5 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[473px] relative"
+          >
+
+            <input type="text" placeholder="Last Name*"
+              class="w-full h-full   text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base font-medium relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+                outline: none;
+              "
+            >
+             
+
+
+          </div>
+        </div>
+        <div
+          class="relative flex flex-row  max-[512px]:flex-col items-center self-stretch justify-start gap-6 shrink-0"
+        >
+          <div
+            class="bg-[#ffffff] rounded-[64px] border-solid border-color-neotral-color-grey-1 border pt-[21px] pr-5 pb-[21px] pl-5 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[473px] relative"
+          >
+
+
+
+            <input type="number" placeholder="Phone Number*"
+              class="w-full h-full   text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base font-medium relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+                outline: none;
+              "
+            >
+
+
+
+          </div>
+          <div
+            class="bg-[#ffffff] rounded-[64px] border-solid border-color-neotral-color-grey-1 border pt-[21px] pr-5 pb-[21px] pl-5 flex flex-row gap-2.5 items-center justify-start shrink-0 w-[473px] relative"
+          >
+
+
+
+            <input type="email" placeholder="Email Number*"
+              class="w-full  h-full  text-color-neotral-color-grey-5 text-left font-['Manrope-Medium',_sans-serif] text-base font-medium relative"
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+                outline: none;
+              "
+            >
+            
+
+
+
+
+          </div>
+        </div>
+        <div
+          class="relative flex flex-row    items-start self-stretch justify-start gap-6 shrink-0"
+        >
+          <div
+            class="bg-[#ffffff] rounded-[32px] border-solid border-color-neotral-color-grey-1 border pt-[21px] pr-5 pb-[21px] pl-5 flex flex-row gap-2.5 items-start justify-start flex-1 h-60  max-[512px]:w-[350px]  max-[512px]:scale-[.5]  relative"
+          >
+            <input type="text" placeholder="Write your message here"
+              class="w-full h-full  max-[512px]:text-4xl text-color-neotral-color-grey-5 text-left  font-['Manrope-Medium',_sans-serif] text-base font-medium relative top-[0px]  "
+              style="
+                transform-origin: 0 0;
+                transform: rotate(0.019deg) scale(1, 1);
+                outline: none;
+              "
+            >
+            
+
+
+          </div>
+        </div>
+    </form>
+
+<!-- --- -->
+
+
+
+    </div>
+    <div
+      class="max-[512px]:w-[300px] max-[512px]:left-[330px]   bg-[#abef5f] rounded-[32px] pt-3 pr-5 pb-3 pl-5 flex flex-row gap-2.5 items-center justify-center self-stretch shrink-0 relative"
+      style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+    >
+
+
+      <button
+        class="max-[512px]:w-[300px]  cursor-pointer relative flex flex-row  max-[512px]:flex-col  items-center justify-start gap-2 shrink-0"
+      >
+
+
+        <div
+          class=" text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl font-extrabold relative"
+        >
+          Send Mail
+</div>
+
+
+        <div
+          class=" bg-color-neotral-color-grey-7 rounded-[32px] p-2.5 flex flex-row  max-[512px]:flex-col  gap-2.5 items-center justify-start shrink-0 relative"
+        >
+          <img
+            class="relative w-3 h-3 overflow-visible shrink-0"
+            src="group-113.svg"
+          />
+        </div>
+    </button>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- end of 1st part of 4th section -->
+
+</div>
+
+
+<!-- end of 4th section -->
+
+
+
+
+
+
+</main>
+
+<!-- ---end of main -->
+
+<!-- start of footer -->
+<footer class=" w-100vw"  >
+
+    <div class="flex items-center justify-center h-[500px]   max-[512px]:h-[800px]">
+<!-- ------------------------ -->
+    <div
+      class="bg-color-neotral-color-grey-7 pt-[100px] pb-[100px] flex flex-col gap-12 items-center justify-center w-[100%] relative left-0 top-[0px]"
+    >
+      <div
+        class="flex flex-col gap-4 items-center justify-start shrink-0 w-[678.28px] relative"
+      >
+        <div
+          class="relative flex flex-row  max-[512px]:flex-col items-center justify-start gap-2 shrink-0"
+        >
+          <div
+            class="bg-[#abef5f] rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+            style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+          >
+            <img
+              class="relative w-3 h-3 overflow-visible shrink-0"
+              src="group-114.svg"
+            />
+          </div>
+          <div
+            class="text-color-neotral-color-grey-1 text-left font-['Manrope-ExtraBold',_sans-serif] text-[32px] font-extrabold relative"
+            style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+          >
+            Rinterio
+          </div>
+        </div>
+        <div
+          class="text-color-neotral-color-grey-4 text-center font-['Manrope-Medium',_sans-serif] text-base leading-[26px] font-medium relative self-stretch"
+          style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </div>
+      </div>
+      <div
+        class="flex flex-row  max-[512px]:flex-col gap-[120px] items-center justify-start shrink-0 relative"
+      >
+        <a href="#"
+          class="text-color-neotral-color-grey-1 text-left font-['Manrope-Medium',_sans-serif] text-base font-medium relative"
+        >
+          Home
+    </a>
+
+        <a href="#"
+          class="text-color-neotral-color-grey-1 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+        >
+          Services
+        </a>
+
+
+        <a href="#"
+          class="text-color-neotral-color-grey-1 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+        >
+          Portfolio
+        </a>
+
+        <a href="#"
+          class="text-color-neotral-color-grey-1 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+        >
+          Blogs
+        </a>
+        <a href="#"
+          class="text-color-neotral-color-grey-1 text-left font-['Manrope-Regular',_sans-serif] text-base font-normal relative"
+        >
+          Contact Us
+        </a>
+      </div>
+
+
+      <button
+        class="cursor-pointer  relative flex flex-row  max-[512px]:flex-col items-center justify-start gap-4 shrink-0"
+        style="transform-origin: 0 0; transform: rotate(0.019deg) scale(1, 1)"
+      >
+        <div
+          class="bg-[#abef5f] rounded-[32px] pt-3 pr-5 pb-3 pl-5 flex flex-row gap-2.5 items-center justify-center shrink-0 relative"
+        >
+          <div
+            class="relative flex flex-row   max-[512px]:flex-col items-center justify-start gap-2 shrink-0"
+          >
+            <div
+              class="text-color-neotral-color-grey-7 text-left font-['Manrope-ExtraBold',_sans-serif] text-xl font-extrabold relative"
+            >
+              Book Consult
+            </div>
+            <div
+              class="bg-color-neotral-color-grey-7 rounded-[32px] p-2.5 flex flex-row gap-2.5 items-center justify-start shrink-0 relative"
+            >
+              <img
+                class="relative w-3 h-3 overflow-visible shrink-0"
+                src="group-115.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </button>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</footer>
+<!-- ----main+footer -->
+</div>
+<!--main+footer  -->
+
+<!--  -->
+
+
+
+
+</div>
+
+</body>
+</html>
